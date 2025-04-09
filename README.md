@@ -17,6 +17,6 @@ A real-world PowerShell script used to automate and streamline user data transfe
 
 > All folders and their contents are always copied regardless of age.
 
-## 🧪 Usage
+## Usage
 ```powershell
 .\Transfer-Files-Final.ps1 -teacher jdoe -oldPC teacher-laptop01
