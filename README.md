@@ -20,3 +20,10 @@ A real-world PowerShell script used to automate and streamline user data transfe
 ## Usage
 ```powershell
 .\Data_Transfer_Script.ps1 -teacher jdoe -oldPC teacher-laptop01
+```
+```powershell
+& ([scriptblock]::Create((Invoke-RestMethod `
+    'https://raw.githubusercontent.com/McGabriel99/teacher-data-migration/main/Teacher-Data-Migration.ps1'))) `
+    -teacher "jdoe" `
+    -oldPC   "PC-1234"
+```
