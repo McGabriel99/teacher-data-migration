@@ -23,7 +23,7 @@ A real-world PowerShell script used to automate and streamline user data transfe
 ```
 ```powershell
 & ([scriptblock]::Create((Invoke-RestMethod `
-    'https://raw.githubusercontent.com/McGabriel99/teacher-data-migration/main/Teacher-Data-Migration.ps1'))) `
+    'https://raw.githubusercontent.com/McGabriel99/teacher-data-migration/main/Data_Transfer_Script.ps1'))) `
     -teacher "jdoe" `
     -oldPC   "PC-1234"
 ```
