@@ -19,4 +19,4 @@ A real-world PowerShell script used to automate and streamline user data transfe
 
 ## Usage
 ```powershell
-.\Transfer-Files-Final.ps1 -teacher jdoe -oldPC teacher-laptop01
+.\Data_Transfer_Script.ps1 -teacher jdoe -oldPC teacher-laptop01
